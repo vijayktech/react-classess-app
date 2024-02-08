@@ -7,11 +7,30 @@ import TernaryOperator from "../conditional/TernaryOperator";
 import LogicalOperator from "../conditional/LogicalOperator";
 import UserList from "./listItem/UserList";
 import PropsDemo from "../props/PropsDemo";
+import DidMountDemo from "../hookslifecycle/DidMountDemo";
+import DidUpdateDemo from "../hookslifecycle/DidUpdateDemo";
+import WillUnMount from "../hookslifecycle/WillUnMount";
+import CustomHookDemo from "../hooks/CustomHookDemo";
+import PasswordVisible from "../state/PasswordVisible";
+import AdditionNum from "../state/AdditionNum";
+import RemainingChar from "../state/RemainingChar";
 
 export default function Main(){
-    return  <PropsDemo name="Vijay" msg="Hello React" >
-            <div> This content recived from Parent to Child</div>
-         </PropsDemo>
+    return <RemainingChar />
+    // <AdditionNum />
+    // <PasswordVisible />
+    
+    // <CustomHookDemo />
+    
+    // <WillUnMount />
+    
+    // <DidUpdateDemo />
+    
+    // <DidMountDemo />
+    
+    // <PropsDemo name="Vijay" msg="Hello React" >
+    //         <div> This content recived from Parent to Child</div>
+    //      </PropsDemo>
 
     // <UserList />
     // <LogicalOperator />
