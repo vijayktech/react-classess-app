@@ -14,46 +14,47 @@ import CustomHookDemo from "../hooks/CustomHookDemo";
 import PasswordVisible from "../state/PasswordVisible";
 import AdditionNum from "../state/AdditionNum";
 import RemainingChar from "../state/RemainingChar";
+import ProductSearch from "../search/ProductSearch";
+import SweeAlertDemo from "../demo/SweetAlertDemo";
 
 export default function Main(){
-    return <RemainingChar />
-    // <AdditionNum />
-    // <PasswordVisible />
+    return <div>
+        {/* <SweeAlertDemo /> */}
+        <ProductSearch />
+     {/* <RemainingChar /> */}
+    {/*  <AdditionNum /> */}
+      {/* <PasswordVisible />  */}
     
-    // <CustomHookDemo />
+    {/* <CustomHookDemo /> */}
     
-    // <WillUnMount />
+    {/* <WillUnMount /> */}
     
-    // <DidUpdateDemo />
+    {/* <DidUpdateDemo /> */}
     
-    // <DidMountDemo />
+    {/* <DidMountDemo /> */}
     
-    // <PropsDemo name="Vijay" msg="Hello React" >
-    //         <div> This content recived from Parent to Child</div>
-    //      </PropsDemo>
+    {/* <PropsDemo name="Vijay" msg="Hello React" >
+            <div> This content recived from Parent to Child</div>
+         </PropsDemo> */}
 
-    // <UserList />
-    // <LogicalOperator />
-    // <TernaryOperator />
+    {/* <UserList /> */}
+    {/* <LogicalOperator /> */}
+    {/* <TernaryOperator /> */}
 
-    // <SwitchCondition />
+    {/* <SwitchCondition /> */}
     
-    // <ConditionalDemo1 />
+    {/* <ConditionalDemo1 /> */}
+   
+    {/* <ListItem /> */}
+    {/* (
+        <div style={{minHeight:'350px'}}>
+            <div>This is Main page</div>
+            <div>This is Boostrap icons</div>
+            <i className="bi-alarm"></i>
 
-
-    // <>
-    //             <ListItem />
-    // </>
-
-
-    // (
-    //     <div style={{minHeight:'350px'}}>
-    //         <div>This is Main page</div>
-    //         <div>This is Boostrap icons</div>
-    //         <i className="bi-alarm"></i>
-
-    //         <h2>Hey, Would you like to go for a <FaBeer color='red' /> ?</h2>
-    //     </div>
-    // );
+            <h2>Hey, Would you like to go for a <FaBeer color='red' /> ?</h2>
+        </div>
+    );  */}
     
+    </div>
 }
