@@ -16,11 +16,13 @@ import AdditionNum from "../state/AdditionNum";
 import RemainingChar from "../state/RemainingChar";
 import ProductSearch from "../search/ProductSearch";
 import SweeAlertDemo from "../demo/SweetAlertDemo";
+import TodoCrud from "../todocrud/TodoCrud";
 
 export default function Main(){
     return <div>
+        <TodoCrud />
+        {/* <ProductSearch /> */}
         {/* <SweeAlertDemo /> */}
-        <ProductSearch />
      {/* <RemainingChar /> */}
     {/*  <AdditionNum /> */}
       {/* <PasswordVisible />  */}
