@@ -17,10 +17,14 @@ import RemainingChar from "../state/RemainingChar";
 import ProductSearch from "../search/ProductSearch";
 import SweeAlertDemo from "../demo/SweetAlertDemo";
 import TodoCrud from "../todocrud/TodoCrud";
+import EventDemo from "../events/EventDemo";
+import EventDemo2 from "../events/EventDemo2";
 
 export default function Main(){
     return <div>
-        <TodoCrud />
+        <EventDemo2 />
+        {/* <EventDemo /> */}
+        {/* <TodoCrud /> */}
         {/* <ProductSearch /> */}
         {/* <SweeAlertDemo /> */}
      {/* <RemainingChar /> */}
