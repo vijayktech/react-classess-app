@@ -19,10 +19,12 @@ import SweeAlertDemo from "../demo/SweetAlertDemo";
 import TodoCrud from "../todocrud/TodoCrud";
 import EventDemo from "../events/EventDemo";
 import EventDemo2 from "../events/EventDemo2";
+import EmployeeCrudOps from "../EmployeeCrud/EmployeeCrudOps";
 
 export default function Main(){
     return <div>
-        <EventDemo2 />
+        <EmployeeCrudOps />
+        {/* <EventDemo2 /> */}
         {/* <EventDemo /> */}
         {/* <TodoCrud /> */}
         {/* <ProductSearch /> */}
