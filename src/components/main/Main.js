@@ -20,10 +20,20 @@ import TodoCrud from "../todocrud/TodoCrud";
 import EventDemo from "../events/EventDemo";
 import EventDemo2 from "../events/EventDemo2";
 import EmployeeCrudOps from "../EmployeeCrud/EmployeeCrudOps";
+import MemoParent from "../memo/MemoParent";
+import PureComponentDemo from "../state/PureComponentDemo";
+import LifeCyceDemo1 from "../LifeCycle/LifeCycleDemo1";
+import LifeCyceDemo2 from "../LifeCycle/LifeCycleDemo2";
+import LifeCycleFuncational from "../LifeCycle/LifeCycleFunctional";
 
 export default function Main(){
     return <div>
-        <EmployeeCrudOps />
+        <LifeCycleFuncational />
+        {/* <LifeCyceDemo2 /> */}
+        {/* <LifeCyceDemo1 /> */}
+        {/* <PureComponentDemo /> */}
+        {/* <MemoParent /> */}
+        {/* <EmployeeCrudOps /> */}
         {/* <EventDemo2 /> */}
         {/* <EventDemo /> */}
         {/* <TodoCrud /> */}
