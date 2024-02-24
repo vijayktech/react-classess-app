@@ -7,9 +7,6 @@ import TernaryOperator from "../conditional/TernaryOperator";
 import LogicalOperator from "../conditional/LogicalOperator";
 import UserList from "./listItem/UserList";
 import PropsDemo from "../props/PropsDemo";
-import DidMountDemo from "../hookslifecycle/DidMountDemo";
-import DidUpdateDemo from "../hookslifecycle/DidUpdateDemo";
-import WillUnMount from "../hookslifecycle/WillUnMount";
 import CustomHookDemo from "../hooks/CustomHookDemo";
 import PasswordVisible from "../state/PasswordVisible";
 import AdditionNum from "../state/AdditionNum";
@@ -25,10 +22,18 @@ import PureComponentDemo from "../state/PureComponentDemo";
 import LifeCyceDemo1 from "../LifeCycle/LifeCycleDemo1";
 import LifeCyceDemo2 from "../LifeCycle/LifeCycleDemo2";
 import LifeCycleFuncational from "../LifeCycle/LifeCycleFunctional";
+import ClickCounter from "../HOC/ClickCounter";
+import HoverCounter from "../HOC/HoverCounter";
+import AxiosCallDemo from "../HTTP/AxiosCallDemo";
+import AxiosCallDemo2 from "../HTTP/AxiosCallDemo2";
 
 export default function Main(){
     return <div>
-        <LifeCycleFuncational />
+        {/* <HoverCounter /> */}
+        {/* <ClickCounter /> */}
+        <AxiosCallDemo2 />
+        {/* <AxiosCallDemo /> */}
+        {/* <LifeCycleFuncational /> */}
         {/* <LifeCyceDemo2 /> */}
         {/* <LifeCyceDemo1 /> */}
         {/* <PureComponentDemo /> */}
