@@ -26,12 +26,14 @@ import ClickCounter from "../HOC/ClickCounter";
 import HoverCounter from "../HOC/HoverCounter";
 import AxiosCallDemo from "../HTTP/AxiosCallDemo";
 import AxiosCallDemo2 from "../HTTP/AxiosCallDemo2";
+import AxiosGitHubDemo from "../HTTP/AxiosGitHubDemo";
 
 export default function Main(){
     return <div>
         {/* <HoverCounter /> */}
         {/* <ClickCounter /> */}
-        <AxiosCallDemo2 />
+        <AxiosGitHubDemo />
+        {/* <AxiosCallDemo2 /> */}
         {/* <AxiosCallDemo /> */}
         {/* <LifeCycleFuncational /> */}
         {/* <LifeCyceDemo2 /> */}
