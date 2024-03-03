@@ -27,12 +27,21 @@ import HoverCounter from "../HOC/HoverCounter";
 import AxiosCallDemo from "../HTTP/AxiosCallDemo";
 import AxiosCallDemo2 from "../HTTP/AxiosCallDemo2";
 import AxiosGitHubDemo from "../HTTP/AxiosGitHubDemo";
+import { Route, Routes } from "react-router-dom";
+import Home from "../Routing/Home";
+import AboutUs from "../Routing/AboutUs";
+import Careers from "../Routing/Careers";
+import NotFound from "../Routing/NotFound";
+import Products from "../Routing/Products";
+import ProductDetails from "../Routing/ProductDetails";
+import Users from "../Routing/Users";
+import UserDetails from "../Routing/UserDetails";
 
 export default function Main(){
     return <div>
         {/* <HoverCounter /> */}
         {/* <ClickCounter /> */}
-        <AxiosGitHubDemo />
+        {/* <AxiosGitHubDemo /> */}
         {/* <AxiosCallDemo2 /> */}
         {/* <AxiosCallDemo /> */}
         {/* <LifeCycleFuncational /> */}
@@ -64,7 +73,7 @@ export default function Main(){
 
     {/* <UserList /> */}
     {/* <LogicalOperator /> */}
-    {/* <TernaryOperator /> */}
+    <TernaryOperator />
 
     {/* <SwitchCondition /> */}
     
@@ -80,6 +89,18 @@ export default function Main(){
             <h2>Hey, Would you like to go for a <FaBeer color='red' /> ?</h2>
         </div>
     );  */}
+
+    {/* <Routes >
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/home" element={<Home />} />
+        <Route exact path="/aboutus" element={<AboutUs />} />
+        <Route exact path="/careers" element={<Careers />} />
+        <Route exact path="/products" element={<Products />} />
+        <Route exact path="/productdetails/:id" element={<ProductDetails />} />
+        <Route exact path="/users" element={<Users />} />
+        <Route path='/users/:id' element={<UserDetails />} />
+        <Route path="*" element={<NotFound /> } />        
+    </Routes> */}
     
     </div>
 }
